@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Ian Torres - Software Developer</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet" type="text/css">
@@ -45,8 +45,8 @@
             }
 
             .title {
-                font-size: 84px;
-                font-weight: 100;
+                font-size: 32px;
+                font-weight: 300;
             }
 
             .subtitle {
@@ -61,11 +61,7 @@
             }
 
             .m-b-md {
-                margin-bottom: 30px;
-            }
-
-            .m-b-sm {
-                margin-bottom: 15px;
+                margin-bottom: 60px;
             }
         </style>
     </head>
