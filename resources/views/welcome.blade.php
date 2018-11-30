@@ -7,15 +7,15 @@
         <title>Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
             html, body {
                 background-color: #fff;
                 color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
+                font-family: 'Roboto', sans-serif;
+                font-weight: 300;
                 height: 100vh;
                 margin: 0;
             }
@@ -46,20 +46,26 @@
 
             .title {
                 font-size: 84px;
+                font-weight: 100;
             }
 
-            .links > a {
+            .subtitle {
+                font-size: 24px;
+            }
+
+            .links > a, a {
                 color: #636b6f;
                 padding: 0 25px;
-                font-size: 13px;
-                font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
-                text-transform: uppercase;
             }
 
             .m-b-md {
                 margin-bottom: 30px;
+            }
+
+            .m-b-sm {
+                margin-bottom: 15px;
             }
         </style>
     </head>
@@ -81,16 +87,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    <a href="/">
+                        Ian Torres
+                    </a>
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{ route('about-me') }}">About me</a>
+                    <a href="{{ route('projects') }}">Projects</a>
                 </div>
             </div>
         </div>
